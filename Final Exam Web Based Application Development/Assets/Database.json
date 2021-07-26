@@ -1,0 +1,37 @@
+{
+
+  "User":[
+      {
+          "fullname" : "Jason Mike",
+          "email" : "Jasonkidd15@gmail.com",
+          "telephone" : 628152456879,
+          "gender" : "Male",
+          "Address" : "Kemanggisan Street 15",
+          "DOB" : "15 June 2000"
+      },
+      {
+        "fullname" : "Michael Rock",
+        "email" : "Michael_Rock@gmail.com",
+        "telephone" : 628152445879,
+        "gender" : "Male",
+        "Address" : "Kemanggisan Street 5",
+        "DOB" : "17 JuLy 1995"
+      },
+      {
+        "fullname" : "Naomi James",
+        "email" : "Naomiee00@gmail.com",
+        "telephone" : 6281578456879,
+        "gender" : "Female",
+        "Address" : "Kemanggisan Street 55",
+        "DOB" : "15 August 2003"
+      },
+      {
+        "fullname" : "Momoa Thomas",
+        "email" : "ThomasMoms98@gmail.com",
+        "telephone" : 6281524578879,
+        "gender" : "Male",
+        "Address" : "Kemanggisan Street 80",
+        "DOB" : "1 January 1998"
+      }
+  ]  
+}

@@ -1,0 +1,48 @@
+form section {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1rem;
+}
+
+form input[type=text],form input[type=number] {
+  height: 30px;
+  width: 50%;
+  border-radius: 0.5rem;
+  border: 1px solid hsl(229, 19%, 18%);
+  color: black;
+  background-color: #ffc875;
+}
+
+form input[type=submit] {
+  width: 15%;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: var(--red);
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5rem -20px var(--red);
+  -webkit-box-shadow: 0 0 5rem -20px var(--red);
+  -moz-box-shadow: 0 0 5rem -20px var(--red);
+}
+
+table {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  text-align: center;
+  padding: 8px;
+  border-radius: 0.2rem;
+}
+
+tr:nth-child(even) {
+  background-color: #ffc875;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqademic - Class Schedule</title>
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../Assets/Aqademic LogoGram.png" type="image/x-icon">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="">
+        <a href="../Home/Index.html" title="Home">
+          <img height="40" width="40" src="../Assets/home.png" alt="">
+        </a>
+      </li>
+      <li class="active">
+        <a href="../Class Schedule/index.html" title="Class Schedule">
+          <img height="40" width="40" src="../Assets/calendar.png
+          " alt="">
+        </a>
+      </li>
+      <li class="">
+        <a href="../Subject/Index.html" title="Subject">
+          <img height="40" width="40" src="../Assets/books-stack-of-three.png" alt="">
+        </a>
+      </li>
+      <li class="">
+        <a href="../Account/index.html" title="Account">
+          <img height="40" width="40" src="../Assets/user.png" alt="">
+        </a>
+      </li>
+    </ul>
+  </nav>
+    <main>
+      <header>
+        <div>
+          <img height="75" src="../Assets/Aqademic LogoType.png" alt="">
+          <div>
+            <h1>Class Schedule</h1>
+            <p class="current-date"></p>
+          </div>
+        </div>
+        <hr>
+      </header>
+      <form onsubmit="submitName(event)">
+      <section>
+        <label for="Name">Name</label>
+        <input type="text" placeholder="Jason Mike" required>
+        <label for="Semester">Semester</label>
+        <input type="number" placeholder="5" required>
+      </section>
+        <input type="submit" value="Check">
+      </form>
+    <table class="center">
+      <tr>
+        <th>No</th>
+        <th>Subject</th>
+        <th>Time</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Mathematics</td>
+        <td>7.20 - 9.00</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Physics</td>
+        <td>9.20 - 11.00</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Biology</td>
+        <td>13.20 - 15.00</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>History</td>
+        <td>15.20 - 17.00</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Art</td>
+        <td>17.20 - 17.50</td>
+      </tr>
+
+    </table>
+    </main>
+    <script src="../global.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

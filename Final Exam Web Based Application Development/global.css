@@ -1,0 +1,99 @@
+:root {
+    --blue: hsl(207, 78%, 44%);
+    --blue-gray: hsl(229, 19%, 18%);
+    --red: hsl(9, 75%, 66%);
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #fbb040;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li.active img {
+    filter: brightness(0) invert(1);
+  }
+  
+  nav ul li a {
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+  }
+  
+  nav ul li.active a {
+    background-color: var(--red);
+  }
+  
+  header > div {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header img {
+    padding-bottom: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  header p {
+    padding-bottom: 1rem;
+    margin: 0;
+    color:black;
+  }
+  
+  header hr {
+    border-color: var(--blue-gray);
+    margin-bottom: 1rem;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:white;
+    color: black;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  /* width */
+  
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  /* Track */
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    display: none;
+  }
+  
+  /* Handle */
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 1rem;
+  }
+  
+  /* Handle on hover */
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
